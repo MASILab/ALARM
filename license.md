@@ -54,7 +54,6 @@ PART B. DOWNLOADING AGREEMENT - License from Vanderbilt with Right to Sublicense
 
 9. Any publications that make use of the Software should include an acknowledgement to Vanderbilt University and the software developers using the citation below:
 
-Yuankai Huo, Zhoubing Xu, Katherine Aboud, Parasanna Parvathaneni, Shunxing Bao, Camilo Bermudez, Susan M. Resnick, Laurie E. Cutting, and Bennett A. Landman. "Spatially Localized Atlas Network Tiles Enables 3D Whole Brain Segmentation" In International Conference on Medical Image Computing and Computer-Assisted Intervention, MICCAI 2018.
 
 10. For commercial use rights, contact the Vanderbilt University Center for Technology Transfer and Commercialization at cttc@vanderbilt.edu or call 615-343-2430 and inquire about the Program.
 
