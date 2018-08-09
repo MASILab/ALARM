@@ -13,7 +13,7 @@ It has been implemented as a single Docker.
 ## Quick Start
 #### Get our docker image
 ```
-sudo docker pull vuiiscci/slant:deep_brain_seg_v1_0_0
+sudo docker pull masidocker/spiders:liver_attenuation_v1_0_1
 ```
 #### Run SLANT brain segmentation
 You can run the following command or change the "input_dir", then you will have the final segmentation results in output_dir
