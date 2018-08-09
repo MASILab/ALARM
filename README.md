@@ -22,7 +22,7 @@ You can run the following command or change the "input_dir", then you will have 
 export input_dir=/home/input_dir   
 # make that directory
 sudo mkdir $input_dir
-# put dicom images to the input_dir
+# put dicom images to the $input_dir/{scan name}
 # set output directory
 export output_dir=$input_dir/output
 #run the docker
