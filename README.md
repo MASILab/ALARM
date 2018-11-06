@@ -15,7 +15,7 @@ It has been implemented as a single Docker.
 ```
 sudo docker pull masidocker/spiders:liver_attenuation_v1_0_1
 ```
-#### Run SLANT brain segmentation
+#### Run ALARM liver attenuation segmentation
 You can run the following command or change the "input_dir", then you will have the final segmentation results in output_dir
 ```
 # you need to specify the input directory
@@ -28,7 +28,8 @@ export output_dir=$input_dir/output
 #run the docker
 sudo nvidia-docker run -it --rm -v {input path}:/INPUTS/ -v {output path}:/OUTPUTS masidocker/spiders:liver_attenuation_v1_0_1 /extra/run_deep_wholebody.sh
 ```
-
+#### Here is a testing scan
+https://vanderbilt.box.com/shared/static/zqbsc1fzi5csgo00urstv8666ligkqhk.gz
 
 ## Detailed envrioment setting  
 
