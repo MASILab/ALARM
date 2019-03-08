@@ -13,7 +13,7 @@ It has been implemented as a single Docker.
 ## Quick Start
 #### Get our docker image
 ```
-sudo docker pull masidocker/spiders:liver_attenuation_v1_0_1
+sudo docker pull masidocker/public:liver_attenuation_v3_0_0
 ```
 #### Run ALARM liver attenuation segmentation
 You can run the following command or change the "input_dir", then you will have the final segmentation results in output_dir
