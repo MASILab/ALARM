@@ -25,8 +25,11 @@ sudo mkdir $input_dir
 # put dicom images to the $input_dir directly without subfolders
 # set output directory
 export output_dir=$input_dir/output
-#run the docker
-sudo nvidia-docker run -it --rm -v {input path}:/INPUTS/ -v {output path}:/OUTPUTS masidocker/public:liver_attenuation_v3_0_0 /extra/run_deep_wholebody.sh
+#run the docker if your input_dir contains dicom files
+sudo nvidia-docker run -it --rm -v {input path}:/INPUTS/ -v {output path}:/OUTPUTS masidocker/public:liver_attenuation_v3_0_0 /extra/run_deep_wholebody_dicom.sh
+
+#run the docker if your input_dir contains nifti
+sudo nvidia-docker run -it --rm -v {input path}:/INPUTS/ -v {output path}:/OUTPUTS masidocker/public:liver_attenuation_v3_0_0 /extra/run_deep_wholebody_nifti.sh
 ```
 #### Here is a testing scan
 https://vanderbilt.box.com/shared/static/zqbsc1fzi5csgo00urstv8666ligkqhk.gz
