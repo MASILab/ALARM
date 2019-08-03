@@ -38,8 +38,7 @@ https://vanderbilt.box.com/shared/static/zqbsc1fzi5csgo00urstv8666ligkqhk.gz
 
 #### Testing platform
 - Ubuntu 16.04
-- cuda 8.0
-- Pytorch 0.2
+- cuda 8.0/9.0
 - Docker version 1.13.1-cs9
 - Nvidia-docker version 1.0.1 to 2.0.3
 
