@@ -1,5 +1,5 @@
 # ALARM: automatic liver attenuation estimation
-###  [[project page]](https://github.com/MASILab/ALARM/)  
+###  [[project page]](https://github.com/MASILab/ALARM/) [[Medical Physcis paper]](https://arxiv.org/ftp/arxiv/papers/1906/1906.09549.pdf) 
 
 The liver attenuation estimations can be achieved from a single CT abdomen scan
 <img src="https://github.com/MASILab/ALARM/blob/master/screenshot/Figure1.jpg" width="600px"/>
@@ -8,7 +8,11 @@ It has been implemented as a single Docker.
 ```diff
 + The code and docker are free for noncommercial purposes.
 + The licence.md shows the terms for commercial and for-profit purposes.
+- Please cite the following MICCAI/NeuroImage paper, if you used the ALARM liver attenuation estimation.
 ```
+The papers can be found [[Medical Physcis paper]](https://arxiv.org/ftp/arxiv/papers/1906/1906.09549.pdf), whole full citation are
+
+Yuankai Huo, James G. Terry, Jiachen Wang, Sangeeta Nair, Thomas A. Lasko, Barry I. Freedman, Jeffery J. Carr, and Bennett A. Landman. "Fully Automatic Liver Attenuation Estimation combing CNN Segmentation and Morphological Operations." Medical physics (2019).
 
 ## Quick Start
 #### Get our docker image
@@ -61,5 +65,9 @@ curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.li
 sudo apt-get update
 sudo apt-get install -y nvidia-docker2
 ```
+
+
+[Version Updates]
+2019-08-03: update the v3.0.2 from v3.0.0. To address the error in resampling. The skimage.resize is included.
 
 
