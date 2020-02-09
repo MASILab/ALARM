@@ -17,7 +17,7 @@ Yuankai Huo, James G. Terry, Jiachen Wang, Sangeeta Nair, Thomas A. Lasko, Barry
 ## Quick Start
 #### Get our docker image
 ```
-sudo docker pull masidocker/public:liver_attenuation_v3_0_2
+sudo docker pull masidocker/public:liver_attenuation_v3_0_3
 ```
 #### Run ALARM liver attenuation segmentation
 You can run the following command or change the "input_dir", then you will have the final segmentation results in output_dir
@@ -30,10 +30,10 @@ sudo mkdir $input_dir
 # set output directory
 export output_dir=$input_dir/output
 #run the docker if your input_dir contains dicom files
-sudo nvidia-docker run -it --rm -v $input_dir:/INPUTS/ -v $output_dir:/OUTPUTS masidocker/public:liver_attenuation_v3_0_2 /extra/run_deep_wholebody_dicom.sh
+sudo nvidia-docker run -it --rm -v $input_dir:/INPUTS/ -v $output_dir:/OUTPUTS masidocker/public:liver_attenuation_v3_0_3 /extra/run_deep_wholebody_dicom.sh
 
 #run the docker if your input_dir contains nifti
-sudo nvidia-docker run -it --rm -v $input_dir:/INPUTS/ -v $output_dir:/OUTPUTS masidocker/public:liver_attenuation_v3_0_2 /extra/run_deep_wholebody_nifti.sh
+sudo nvidia-docker run -it --rm -v $input_dir:/INPUTS/ -v $output_dir:/OUTPUTS masidocker/public:liver_attenuation_v3_0_3 /extra/run_deep_wholebody_nifti.sh
 ```
 #### Here is a testing scan
 https://vanderbilt.box.com/shared/static/zqbsc1fzi5csgo00urstv8666ligkqhk.gz
@@ -68,6 +68,7 @@ sudo apt-get install -y nvidia-docker2
 
 
 [Version Updates]
+2020-02-08: update the v3.0.3 from v3.0.2. Add a pdf generation function to generate a pdf report
 2019-08-03: update the v3.0.2 from v3.0.0. To address the error in resampling. The skimage.resize is included.
 
 
