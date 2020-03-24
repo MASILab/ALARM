@@ -2,7 +2,7 @@
 ###  [[project page]](https://github.com/MASILab/ALARM/) [[Medical Physcis paper]](https://arxiv.org/ftp/arxiv/papers/1906/1906.09549.pdf) 
 
 The liver attenuation estimations can be achieved from a single CT abdomen scan
-<img src="https://github.com/MASILab/ALARM/blob/master/screenshot/Figure1.jpg" width="600px"/>
+<img src="https://github.com/MASILab/ALARM/blob/master/screenshot/alarm.png" width="600px"/>
 
 It has been implemented as a single Docker.
 ```diff
