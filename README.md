@@ -17,7 +17,7 @@ Yuankai Huo, James G. Terry, Jiachen Wang, Sangeeta Nair, Thomas A. Lasko, Barry
 ## Quick Start
 #### Get our docker image
 ```
-sudo docker pull masidocker/public:liver_attenuation_v3_0_3
+sudo docker pull masidocker/public:liver_attenuation_v3_0_4
 ```
 #### Run ALARM liver attenuation segmentation
 You can run the following command or change the "input_dir", then you will have the final segmentation results in output_dir
@@ -68,6 +68,7 @@ sudo apt-get install -y nvidia-docker2
 
 
 [Version Updates]
+2022-04-13: update the v3.0.4 from v3.0.3. Address the problem with JP-LS compressed dicom images. Update dcm2niix version to v1.0.20211006 (JP2:OpenJPEG) (JP-LS:CharLS)
 2020-02-08: update the v3.0.3 from v3.0.2. Add a pdf generation function to generate a pdf report
 2019-08-03: update the v3.0.2 from v3.0.0. To address the error in resampling. The skimage.resize is included.
 
